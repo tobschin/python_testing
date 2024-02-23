@@ -15,6 +15,5 @@ class TestFoo(unittest.TestCase):
         self.assertEqual('doo', self.foo.doo())
 
     def test_mock_doo(self):
-
         self.assertEqual('mocked_foo', self.mockFoo.doo())
     
